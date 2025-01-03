@@ -1,202 +1,64 @@
-[03Jan2025 14:48:54.216] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[03Jan2025 14:48:54.220] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[03Jan2025 14:48:54.599] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/reinaldo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[03Jan2025 14:48:54.936] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/reinaldo/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
-[03Jan2025 14:48:54.937] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/reinaldo/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[03Jan2025 14:48:54.938] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/reinaldo/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[03Jan2025 14:48:54.939] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/reinaldo/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[03Jan2025 14:48:55.147] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
-[03Jan2025 14:48:57.004] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[03Jan2025 14:48:57.060] [main/ERROR] [mixin/]: Mixin config itshallnottick.mixins.json does not specify "minVersion" property
-[03Jan2025 14:48:57.173] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
-[03Jan2025 14:48:57.174] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[03Jan2025 14:48:57.253] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 29 options available, 0 override(s) found
-[03Jan2025 14:48:57.370] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
-[03Jan2025 14:48:57.372] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
-[03Jan2025 14:48:57.422] [main/INFO] [Sodium Extra Config/]: Loaded configuration file for Sodium Extra: 27 options available, 0 override(s) found
-[03Jan2025 14:48:57.442] [main/INFO] [Canary/]: Loaded configuration file for Canary: 104 options available, 1 override(s) found
-[03Jan2025 14:48:57.575] [main/WARN] [mixin/]: Error loading class: atomicstryker/multimine/client/MultiMineClient (java.lang.ClassNotFoundException: atomicstryker.multimine.client.MultiMineClient)
-[03Jan2025 14:48:57.575] [main/WARN] [mixin/]: @Mixin target atomicstryker.multimine.client.MultiMineClient was not found treechop.forge.compat.mixins.json:MultiMineMixin
-[03Jan2025 14:48:58.323] [main/WARN] [Canary/]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [pluto]) disables it and children
-[03Jan2025 14:49:04.246] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[03Jan2025 14:49:06.475] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class me/flashyreese/mods/sodiumextra/client/SodiumExtraClientMod for invalid dist DEDICATED_SERVER
-[03Jan2025 14:49:06.476] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to load class me.flashyreese.mods.sodiumextra.client.SodiumExtraClientMod
-java.lang.RuntimeException: Attempted to load class me/flashyreese/mods/sodiumextra/client/SodiumExtraClientMod for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:638) ~[?:?]
-	at java.lang.Class.forName(Class.java:625) ~[?:?]
-	at java.lang.Class.forName(Class.java:600) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.<init>(FMLModContainer.java:50) ~[javafmllanguage-1.19.2-43.4.2.jar%23199!/:?]
+[03Jan2025 15:08:01.129] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[03Jan2025 15:08:01.134] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[03Jan2025 15:08:01.703] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/reinaldo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[03Jan2025 15:08:02.066] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/reinaldo/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[03Jan2025 15:08:02.068] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/reinaldo/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[03Jan2025 15:08:02.070] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/reinaldo/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[03Jan2025 15:08:02.071] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/reinaldo/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[03Jan2025 15:08:02.281] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[03Jan2025 15:08:04.593] [main/ERROR] [mixin/]: Mixin config itshallnottick.mixins.json does not specify "minVersion" property
+[03Jan2025 15:08:04.614] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03Jan2025 15:08:04.742] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[03Jan2025 15:08:04.854] [main/INFO] [Canary/]: Loaded configuration file for Canary: 104 options available, 0 override(s) found
+[03Jan2025 15:08:05.051] [main/WARN] [mixin/]: Error loading class: atomicstryker/multimine/client/MultiMineClient (java.lang.ClassNotFoundException: atomicstryker.multimine.client.MultiMineClient)
+[03Jan2025 15:08:05.051] [main/WARN] [mixin/]: @Mixin target atomicstryker.multimine.client.MultiMineClient was not found treechop.forge.compat.mixins.json:MultiMineMixin
+[03Jan2025 15:08:12.282] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[03Jan2025 15:08:14.816] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Welcome! /workspaces/reinaldo/servidor_minecraft/config/libraryferret_1.properties created and initialized with default value
+[03Jan2025 15:08:14.817] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[03Jan2025 15:08:14.849] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[03Jan2025 15:08:14.983] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Welcome! /workspaces/reinaldo/servidor_minecraft/config/bettervillage_1.properties created and initialized with default value
+[03Jan2025 15:08:15.125] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: zume, class zume.b
+java.lang.NoClassDefFoundError: net/minecraft/client/CameraType
+	at zume.b.<init>(Unknown Source) ~[zume-1.1.4.jar%23171!/:?]
 	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
 	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider$FMLModTarget.loadMod(FMLJavaModLanguageProvider.java:62) ~[javafmllanguage-1.19.2-43.4.2.jar%23199!/:?]
-	at net.minecraftforge.fml.ModLoader.buildModContainerFromTOML(ModLoader.java:276) ~[fmlcore-1.19.2-43.4.2.jar%23198!/:?]
-	at net.minecraftforge.fml.ModLoader.lambda$buildMods$29(ModLoader.java:255) ~[fmlcore-1.19.2-43.4.2.jar%23198!/:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1858) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.buildMods(ModLoader.java:257) ~[fmlcore-1.19.2-43.4.2.jar%23198!/:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?]
-	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?]
-	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?]
-	at java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:175) ~[fmlcore-1.19.2-43.4.2.jar%23198!/:?]
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
-	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[03Jan2025 14:49:06.480] [main/FATAL] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Failed to build mod
-java.lang.reflect.InvocationTargetException: null
-	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:74) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider$FMLModTarget.loadMod(FMLJavaModLanguageProvider.java:62) ~[javafmllanguage-1.19.2-43.4.2.jar%23199!/:?]
-	at net.minecraftforge.fml.ModLoader.buildModContainerFromTOML(ModLoader.java:276) ~[fmlcore-1.19.2-43.4.2.jar%23198!/:?]
-	at net.minecraftforge.fml.ModLoader.lambda$buildMods$29(ModLoader.java:255) ~[fmlcore-1.19.2-43.4.2.jar%23198!/:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1858) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.buildMods(ModLoader.java:257) ~[fmlcore-1.19.2-43.4.2.jar%23198!/:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?]
-	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?]
-	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?]
-	at java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:175) ~[fmlcore-1.19.2-43.4.2.jar%23198!/:?]
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
-	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-Caused by: net.minecraftforge.fml.ModLoadingException: Rubidium Extra has class loading errors
-§7java.lang.RuntimeException: Attempted to load class me/flashyreese/mods/sodiumextra/client/SodiumExtraClientMod for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.<init>(FMLModContainer.java:56) ~[javafmllanguage-1.19.2-43.4.2.jar%23199!/:?]
-	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
-	... 37 more
-Caused by: java.lang.RuntimeException: Attempted to load class me/flashyreese/mods/sodiumextra/client/SodiumExtraClientMod for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:638) ~[?:?]
-	at java.lang.Class.forName(Class.java:625) ~[?:?]
-	at java.lang.Class.forName(Class.java:600) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.<init>(FMLModContainer.java:50) ~[javafmllanguage-1.19.2-43.4.2.jar%23199!/:?]
-	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
-	... 37 more
-[03Jan2025 14:49:06.501] [main/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Failed to initialize mod containers
-net.minecraftforge.fml.ModLoadingException: Rubidium Extra has class loading errors
-§7java.lang.RuntimeException: Attempted to load class me/flashyreese/mods/sodiumextra/client/SodiumExtraClientMod for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.<init>(FMLModContainer.java:56) ~[javafmllanguage-1.19.2-43.4.2.jar%23199!/:?]
-	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider$FMLModTarget.loadMod(FMLJavaModLanguageProvider.java:62) ~[javafmllanguage-1.19.2-43.4.2.jar%23199!/:?]
-	at net.minecraftforge.fml.ModLoader.buildModContainerFromTOML(ModLoader.java:276) ~[fmlcore-1.19.2-43.4.2.jar%23198!/:?]
-	at net.minecraftforge.fml.ModLoader.lambda$buildMods$29(ModLoader.java:255) ~[fmlcore-1.19.2-43.4.2.jar%23198!/:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1858) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.buildMods(ModLoader.java:257) ~[fmlcore-1.19.2-43.4.2.jar%23198!/:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?]
-	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?]
-	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?]
-	at java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:175) ~[fmlcore-1.19.2-43.4.2.jar%23198!/:?]
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
-	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-Caused by: java.lang.RuntimeException: Attempted to load class me/flashyreese/mods/sodiumextra/client/SodiumExtraClientMod for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:638) ~[?:?]
-	at java.lang.Class.forName(Class.java:625) ~[?:?]
-	at java.lang.Class.forName(Class.java:600) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.<init>(FMLModContainer.java:50) ~[javafmllanguage-1.19.2-43.4.2.jar%23199!/:?]
-	... 38 more
-[03Jan2025 14:49:06.579] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-01-03_14.49.06-fml.txt
-[03Jan2025 14:49:06.586] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.4.2.jar%23175!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:122) ~[fmlcore-1.19.2-43.4.2.jar%23174!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.CameraType
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 13 more
+[03Jan2025 15:08:15.584] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[03Jan2025 15:08:15.587] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[03Jan2025 15:08:15.588] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[03Jan2025 15:08:15.597] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[03Jan2025 15:08:15.597] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[03Jan2025 15:08:17.460] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
+[03Jan2025 15:08:17.574] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID ddb612d8-839b-4473-8cb0-6530c8eb3a85
+[03Jan2025 15:08:17.577] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-01-03_15.08.17-fml.txt
+[03Jan2025 15:08:17.587] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID fc069290-1bda-4594-86ec-668db700481f
+[03Jan2025 15:08:17.589] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
 net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
-	Rubidium Extra has class loading errors
-§7java.lang.RuntimeException: Attempted to load class me/flashyreese/mods/sodiumextra/client/SodiumExtraClientMod for invalid dist DEDICATED_SERVER
+	Zume (zume) has failed to load correctly
+§7java.lang.NoClassDefFoundError: net/minecraft/client/CameraType
 ]
-	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:180) ~[fmlcore-1.19.2-43.4.2.jar%23198!/:?]
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.19.2-43.4.2-universal.jar%23202!/:?]
-	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23197!/:?]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:243) ~[fmlcore-1.19.2-43.4.2.jar%23174!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$24(ModLoader.java:208) ~[fmlcore-1.19.2-43.4.2.jar%23174!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:208) ~[fmlcore-1.19.2-43.4.2.jar%23174!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$14(ModLoader.java:185) ~[fmlcore-1.19.2-43.4.2.jar%23174!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:185) ~[fmlcore-1.19.2-43.4.2.jar%23174!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.19.2-43.4.2-universal.jar%23178!/:?]
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23173!/:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:?]
