@@ -1,43 +1,25 @@
 {
-  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+  "securitycraft:recipes/securitycraft/universal_block_remover": {
     "criteria": {
-      "has_gravel": "2025-01-03 16:00:16 +0000"
+      "has_iron": "2025-01-03 18:01:38 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_concrete_powder": {
+  "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
-      "has_gravel": "2025-01-03 16:00:16 +0000"
+      "has_stick": "2025-01-03 17:39:54 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/white_concrete_powder": {
+  "minecraft:recipes/redstone/lever": {
     "criteria": {
-      "has_gravel": "2025-01-03 16:00:16 +0000"
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
-      "has_gravel": "2025-01-03 16:00:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2025-01-03 15:57:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gray_concrete_powder": {
-    "criteria": {
-      "has_gravel": "2025-01-03 16:00:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purple_concrete_powder": {
-    "criteria": {
-      "has_gravel": "2025-01-03 16:00:16 +0000"
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
     },
     "done": true
   },
@@ -47,27 +29,45 @@
     },
     "done": true
   },
-  "takesapillage:root": {
+  "securitycraft:recipes/securitycraft/keycard_lv2": {
     "criteria": {
-      "always": "2025-01-03 15:55:42 +0000"
+      "has_iron": "2025-01-03 18:01:38 +0000"
     },
     "done": true
   },
-  "byg:root": {
+  "securitycraft:recipes/securitycraft/keycard_lv1": {
     "criteria": {
-      "tick": "2025-01-03 15:55:42 +0000"
+      "has_iron": "2025-01-03 18:01:38 +0000"
     },
     "done": true
   },
-  "byg:adventure/oh_the_biomes_youll_go": {
+  "minecraft:recipes/combat/iron_sword": {
     "criteria": {
-      "byg:amaranth_fields": "2025-01-03 16:00:59 +0000"
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/bouncing_betty": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-03 16:00:16 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/sentry": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:37 +0000"
     },
     "done": true
   },
@@ -77,49 +77,39 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/decorations/campfire": {
     "criteria": {
-      "minecraft:bamboo_jungle": "2025-01-03 16:00:06 +0000",
-      "minecraft:sparse_jungle": "2025-01-03 15:56:09 +0000",
-      "minecraft:river": "2025-01-03 16:00:00 +0000",
-      "minecraft:jungle": "2025-01-03 16:00:27 +0000",
-      "minecraft:old_growth_birch_forest": "2025-01-03 15:55:43 +0000"
-    },
-    "done": false
-  },
-  "byg:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2025-01-03 16:00:01 +0000"
+      "has_stick": "2025-01-03 17:39:54 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/black_concrete_powder": {
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "has_gravel": "2025-01-03 16:00:16 +0000"
+      "has_planks": "2025-01-03 17:40:26 +0000"
     },
     "done": true
   },
-  "create:root": {
+  "byg:recipes/byg.byg/jacaranda_stairs": {
     "criteria": {
-      "0": "2025-01-03 15:55:42 +0000"
+      "has_planks": "2025-01-03 17:40:26 +0000"
     },
     "done": true
   },
-  "minecraft:husbandry/root": {
+  "minecraft:recipes/decorations/ladder": {
     "criteria": {
-      "consumed_item": "2025-01-03 16:00:01 +0000"
+      "has_stick": "2025-01-03 17:39:54 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/coarse_dirt": {
+  "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
-      "has_gravel": "2025-01-03 16:00:16 +0000"
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/birch_boat": {
+  "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "in_water": "2025-01-03 15:57:11 +0000"
+      "has_lots_of_items": "2025-01-03 17:50:08 +0000"
     },
     "done": true
   },
@@ -129,21 +119,15 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
       "in_water": "2025-01-03 15:57:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/green_concrete_powder": {
-    "criteria": {
-      "has_gravel": "2025-01-03 16:00:16 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/root": {
-    "criteria": {
-      "useitem": "2025-01-03 16:00:01 +0000"
     },
     "done": true
   },
@@ -153,21 +137,333 @@
     },
     "done": true
   },
-  "byg:biomepedia_gift": {
+  "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
-      "tick": "2025-01-03 15:55:42 +0000"
+      "has_stick": "2025-01-03 17:39:54 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/acacia_boat": {
+  "byg:recipes/byg.byg/jacaranda_wood": {
+    "criteria": {
+      "has_log": "2025-01-03 17:36:40 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/track_mine": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2025-01-03 17:42:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/industrial_iron_block_from_ingots_iron_stonecutting": {
+    "criteria": {
+      "has_ingots_iron": "2025-01-03 18:01:37 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/sc_manual": {
+    "criteria": {
+      "has_wood": "2025-01-03 17:36:40 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/keycard_lv4": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-01-03 17:30:57 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/keycard_lv3": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "byg:recipes/byg.byg/jacaranda_door": {
+    "criteria": {
+      "has_planks": "2025-01-03 17:40:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-01-03 17:40:26 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/keycard_lv5": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-01-03 17:42:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2025-01-03 15:57:11 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/oak_boat": {
+  "create:recipes/create.base/crafting/materials/andesite_alloy": {
     "criteria": {
-      "in_water": "2025-01-03 15:57:11 +0000"
+      "has_item": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/blacklist_module": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/oak_window": {
+    "criteria": {
+      "has_ingredient": "2025-01-03 18:02:10 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/speed_module": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2025-01-03 17:39:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-01-03 17:59:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-01-03 16:00:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-01-03 16:00:16 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/electrified_iron_fence": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/harming_module": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_andesite": {
+    "criteria": {
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/smart_module": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:37 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/cgm/workbench": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/cgm/assault_rifle": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "byg:recipes/byg.byg/jacaranda_button": {
+    "criteria": {
+      "has_planks": "2025-01-03 17:40:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "byg:recipes/byg.byg/jacaranda_bookshelf": {
+    "criteria": {
+      "has_planks": "2025-01-03 17:40:26 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/block_change_detector": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2025-01-03 17:39:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "byg:recipes/byg.byg/jacaranda_fence": {
+    "criteria": {
+      "has_planks": "2025-01-03 17:40:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "byg:recipes/byg.byg/jacaranda_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-01-03 17:40:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-01-03 18:02:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/cgm/bazooka": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-01-03 16:00:16 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/cgm/shotgun": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-01-03 16:00:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-01-03 17:59:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-01-03 17:40:36 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/redstone_module": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_stick": "2025-01-03 17:39:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "byg:recipes/byg.byg/jacaranda_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-01-03 17:40:26 +0000"
     },
     "done": true
   },
@@ -183,9 +479,364 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2025-01-03 18:02:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-01-03 18:02:10 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/cgm/machine_pistol": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/empty_blaze_burner": {
+    "criteria": {
+      "has_item": "2025-01-03 18:01:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-03 16:00:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-01-03 16:00:16 +0000"
+    },
+    "done": true
+  },
+  "byg:recipes/byg.byg/jacaranda_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-01-03 17:40:26 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/security_camera": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-01-03 18:02:10 +0000"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/upgrades/iron_to_gold_chest_upgrade": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_diorite": {
+    "criteria": {
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/door_indestructible_iron_item": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/trophy_system": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-01-03 16:00:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-01-03 17:31:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2025-01-03 17:30:17 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/appliances/crafting_blueprint": {
+    "criteria": {
+      "has_item": "2025-01-03 17:40:36 +0000"
+    },
+    "done": true
+  },
+  "simpleplanes:recipes/plane": {
+    "criteria": {
+      "in_fire": "2025-01-03 17:40:08 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/camera_monitor": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-01-03 18:02:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "takesapillage:root": {
+    "criteria": {
+      "always": "2025-01-03 15:55:42 +0000"
+    },
+    "done": true
+  },
+  "byg:recipes/byg.byg/jacaranda_planks": {
+    "criteria": {
+      "has_logs": "2025-01-03 17:36:40 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/limited_use_keycard": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "byg:root": {
+    "criteria": {
+      "tick": "2025-01-03 15:55:42 +0000"
+    },
+    "done": true
+  },
+  "byg:adventure/oh_the_biomes_youll_go": {
+    "criteria": {
+      "byg:amaranth_fields": "2025-01-03 16:00:59 +0000",
+      "byg:ebony_woods": "2025-01-03 18:05:44 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-01-03 17:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:bamboo_jungle": "2025-01-03 16:00:06 +0000",
+      "minecraft:sparse_jungle": "2025-01-03 15:56:09 +0000",
+      "minecraft:river": "2025-01-03 16:00:00 +0000",
+      "minecraft:forest": "2025-01-03 17:47:40 +0000",
+      "minecraft:jungle": "2025-01-03 16:00:27 +0000",
+      "minecraft:old_growth_birch_forest": "2025-01-03 15:55:43 +0000",
+      "minecraft:plains": "2025-01-03 18:07:09 +0000"
+    },
+    "done": false
+  },
+  "byg:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-01-03 16:00:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:37 +0000"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/chests/vanilla_iron_chest": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-01-03 17:36:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-01-03 17:39:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-01-03 16:00:01 +0000"
+    },
+    "done": true
+  },
+  "immersive_aircraft:misc/aircraftery": {
+    "criteria": {
+      "has_item": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/whitelist_module": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-01-03 15:57:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-01-03 18:02:10 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/sonic_security_system": {
+    "criteria": {
+      "has_stick": "2025-01-03 17:39:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2025-01-03 17:40:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-01-03 16:00:16 +0000"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/chests/copper_iron_chest": {
+    "criteria": {
+      "has_item": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-01-03 15:57:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/cgm/grenade_launcher": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-01-03 18:02:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-01-03 17:30:14 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/motion_activated_light": {
+    "criteria": {
+      "has_stick": "2025-01-03 17:39:54 +0000"
     },
     "done": true
   },
@@ -195,15 +846,213 @@
     },
     "done": true
   },
+  "cgm:recipes/cgm/pistol": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/storage_module": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/mine": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-01-03 16:00:16 +0000"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/upgrades/wood_to_iron_chest_upgrade": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-01-03 15:57:11 +0000"
+    },
+    "done": true
+  },
+  "byg:recipes/byg.byg/jacaranda_boat": {
+    "criteria": {
+      "has_planks": "2025-01-03 17:40:26 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/cgm/heavy_rifle": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2025-01-03 17:30:17 +0000"
+    },
+    "done": false
+  },
+  "securitycraft:recipes/securitycraft/briefcase": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "byg:recipes/byg.byg/jacaranda_slab": {
+    "criteria": {
+      "has_planks": "2025-01-03 17:40:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2025-01-03 15:55:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2025-01-03 17:42:33 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/reinforced_fence_gate": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/root": {
+    "criteria": {
+      "useitem": "2025-01-03 16:00:01 +0000"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/upgrades/wood_to_copper_chest_upgrade": {
+    "criteria": {
+      "has_item": "2025-01-03 17:40:26 +0000"
+    },
+    "done": true
+  },
+  "byg:biomepedia_gift": {
+    "criteria": {
+      "tick": "2025-01-03 15:55:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2025-01-03 18:02:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-01-03 15:57:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2025-01-03 17:39:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2025-01-03 17:41:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-01-03 17:30:40 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/disguise_module": {
+    "criteria": {
+      "has_iron": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2025-01-03 16:00:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2025-01-03 18:02:10 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/cgm/rifle": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
+  "cgm:recipes/cgm/mini_gun": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-03 18:01:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-01-03 16:00:16 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/spruce_boat": {
+  "byg:recipes/byg.byg/jacaranda_crafting_table": {
     "criteria": {
-      "in_water": "2025-01-03 15:57:11 +0000"
+      "has_planks": "2025-01-03 17:40:26 +0000"
     },
     "done": true
   },
