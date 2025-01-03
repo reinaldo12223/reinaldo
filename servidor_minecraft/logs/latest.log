@@ -3157,3 +3157,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [03Jan2025 18:12:54.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 35693 chunks (99.92%), ETA: 0:00:01, Rate: 15.0 cps, Current: 89, 27
 [03Jan2025 18:12:55.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 35708 chunks (99.96%), ETA: 0:00:00, Rate: 13.7 cps, Current: 104, 27
 [03Jan2025 18:12:56.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task finished for minecraft:overworld. Processed: 35721 chunks (100.00%), Total time: 0:52:07
+[03Jan2025 18:19:04.860] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ALVAREZ_QWA lost connection: Timed out
+[03Jan2025 18:19:04.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ALVAREZ_QWA left the game
+[03Jan2025 18:19:36.112] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2063ms or 41 ticks behind
